@@ -1,4 +1,4 @@
-let anonasc = Number(prompt("Digite um numero: "));
+let num = Number(prompt("Digite um numero: "));
 
 if (num % 2 != 0) {
     alert(`${num} é impar`);
