@@ -1,19 +1,7 @@
-let dia = prompt("escolha um dia da semana \n sendo 1: domingo - 7: sabado");
-dia = Number(dia);
-if (dia <=0 || dia > 8) {
-    alert("Dia invalido");
-}else if(dia == 1){
-    alert("Domingo");
-}else if(dia == 2){
-    alert("Segunda-feira");
-}else if(dia == 3){
-    alert("Terça-feira");
-}else if(dia == 4){
-    alert("Quarta-feira");
-}else if(dia == 5){
-    alert("Quinta-feira");
-}else if(dia == 6){
-    alert("Sexta-feira");
-}else if(dia == 7){
-    alert("Sábado");
-}
+let vezes = prompt("Digite a quantidade de vezes")
+vezes = Number(vezes);
+let i = 1;
+do{
+    alert(`contei ${i} vez`)
+    i = i + 1;
+} while(i <= vezes);
